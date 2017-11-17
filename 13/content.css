@@ -1,0 +1,437 @@
+.content-site {
+    display: block;
+    width: 1900px;
+    margin-top: 660px; 
+}
+.info-content {
+    width: 1450px;
+    height: 100px;
+    padding: 0 50px 0 200px;
+}
+.info-content .titiel-cont{
+    display: inline-block;
+    height: 100px;
+}
+.info-content div h2,a {
+    display: inline-block;
+}
+.info-content div h2{
+    font-size: 32px;
+}
+.info-content div a{
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #444;
+    margin-left: 40px;
+    transition: all .2s ease-in-out;
+}
+.info-content div a:hover{
+    color: #E65100;
+}
+.go-line {
+    display: inline-block;
+    float: right;
+    margin-top: 40px; 
+}
+.go-line div{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    font-size: 20px;
+    color: rgba(0, 0, 0, .4);
+    transition: all .2s ease-in-out;
+}
+.go-line div:hover {
+    color: black;
+    cursor: pointer;
+}
+.list-product {
+    width: 1540px;
+    margin: 0 auto;
+}
+.product {
+    display: inline-block;
+    width: 300px;
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .2);
+    background: #fff;
+    margin-left: 70px;
+    position: relative;
+}
+.product img {
+    width: 180px;
+    margin: 50px 0 5px 60px;
+}
+.help-title {
+    color: #444;
+    margin-left: 20px; 
+}
+.product h4 {
+    margin-left: 20px; 
+}
+.buy {
+    display: block;
+    margin:0 20px 0 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2); 
+}
+.buy h3,a {
+    display: inline-block;
+}
+.buy h3{
+    font-size: 22px;
+}
+.buy a {
+    margin-left: 10px; 
+    width: 120px;
+    height: 40px;
+    border: 1px solid #E65100;
+    text-align: center;
+    line-height: 40px;
+    color: #E65100;
+    text-decoration: none;
+}
+.bottom-buy{
+    margin-left: 20px;  
+}
+.bottom-buy a{
+    text-decoration: none;
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    color: #444;
+    transition: all .2s ease-in-out;
+}
+.bottom-buy a:hover {
+    color: #E65100;
+}
+.recommend {
+    display: block;
+    position: absolute;
+    top: 10px;
+    width: 110px;
+    height: 25px;
+    line-height: 25px;
+    background: #01579B;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 10px;     
+}
+.stock {
+    display: block;
+    position: absolute;
+    top: 50px;
+    width: 70px;
+    height: 25px;
+    text-decoration: none;
+    background: #E65100;
+    color: #fff;
+    line-height: 25px;
+    padding-left: 10px; 
+}
+.stars {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: rgba(0, 0, 0, .2);
+}
+.oreng-star{
+    color: #E65100;
+}
+.list-comp {
+    margin: 50px 0 50px 0; 
+    display: block;
+    width: 1900px;
+    height: 200px;
+    background: #fff;
+    position: relative;
+}
+.arrow {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, .4);
+    border-radius: 50%; 
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #444;
+    cursor: pointer;
+}
+.arrow-lf {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+}
+.arrow-rg{
+    position: absolute;
+    top: 80px;
+    right: 40px;
+}
+.comp {
+    position: absolute;
+    left: 150px;
+    height: 200px;
+}
+.comp ul li{
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+}
+.comp ul li a{
+    text-decoration: none;
+    color: #444;
+    font-size: 32px;
+    transition: all .2s ease-in-out;
+}
+.comp ul li a:hover{
+    color: #E65100;
+}
+.vidio-container {
+    display: block;
+    width: 1540px;
+    margin: 0 auto;
+}
+.vidio {
+    display: inline-block;
+    width: 315px;
+    height: 300px;
+    background: #fff;
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    transition: all .2s ease-in-out;
+    margin-left: 40px; 
+}
+.vidio h3{
+    margin: 10px;
+}
+.vidio:hover h3 {
+    color: #E65100;
+}
+.news {
+    display: block;
+    width: 1900px;
+}
+.news-content {
+    width: 1540px;
+    margin: 0 auto;
+}
+.article {
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    background: #fff;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-left: 50px;
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+.atricle-label {
+    color: #444444;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.article:hover {
+    box-shadow: 0px 0px 25px #E65100;
+}
+.watched-div {
+    display: block;
+    width: 1900px;
+}
+.watched-cont {
+    width: 1500px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 20px; 
+}
+.watched-cont a {
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    /* border: 1px solid black; */
+    text-decoration: none;
+    color: #000;
+    margin-left: 40px;
+    transition: all .2s ease-in-out; 
+}
+.watched-cont a:hover{
+    color: #E65100;
+} 
+.watched-cont a img {
+    display: block;
+    width: 200px;
+    margin: 20px 0 5px 20px;
+
+}
+.watched-cont a p{
+    margin: 5px 0 0 20px;
+}
+.article-news {
+    margin: 60px 0 60px 0; 
+    display: block;
+    width: 1900px;
+}
+.art-cont{
+    width: 1540px;
+    margin: 0 auto;
+    background: #fff;
+}
+.art{
+    display: inline-block;
+    width: 700px;
+    margin: 20px 40px 20px 20px;
+}
+.newsletter {
+    width: 1900px;
+    margin: 0 auto;
+    background: #1976D2;
+    height: 150px;
+}
+.newsletter-content {
+    width: 1540px;
+    margin: 0 auto;
+    position: relative;
+}
+.text-send {
+    display: inline-block;
+    width: 750px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+}
+.input-send {
+    display: inline-block;
+    width: 750px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+}
+.input-send input {
+    width: 500px;
+    height: 40px;
+    display: inline-block;
+}
+.input-send button {
+    width: 100px;
+    height: 46px;
+    display: inline-block;
+    margin: 0 0 0 -4px;
+    padding: 0;
+    border: none;
+    background: #1565C0;
+    color: #fff;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.input-send button:hover {
+    background: rgb(14, 70, 129);
+}
+.input-send div {
+    margin: 50px 0 0 50px;
+}
+.text-send div{
+    margin: 50px 0 0 50px;
+    color: #fff;
+}
+.text-send div h2 {
+    margin: 5px;
+    font-size: 32px;
+    font-weight: 100;
+}
+.futer-bottom {
+    width: 1900px;
+    display: block;
+    background: #040a36;
+    padding-top: 60px; 
+}
+.margin-futer {
+    width: 1540px;
+    margin: 0 auto;
+    height: 240px;
+}
+.col-futer {
+    display: inline-block;
+    width: 380px;
+}
+.col-futer ul li{
+    display: block;
+    height: 30px;
+}
+.col-futer ul li a {
+    text-decoration: none;
+    color: #777;
+    transition: all .2s ease-in-out;
+}
+.col-futer ul li a:hover {
+    text-decoration: none;
+    color: #ddd;
+}
+.col-futer ul li:first-child a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #aaaaaa; 
+}
+.margin-futer {
+    border-bottom: 1px solid #777; 
+}
+.futer-bottom-div {
+    display: block;
+    width: 1540px;
+    height: 80px;
+    position: relative;
+    margin: 0 auto;
+}
+.date-site {
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+.date-site p {
+    display: inline-block;
+    color: #777;
+    margin-right: 30px; 
+}
+.link-social {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+.link-social li{
+    display: inline-block;
+    margin-left: 20px; 
+}
+.link-social li a {
+    display: block;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #aaa;
+    text-align: center;
+    line-height: 50px;
+    background: #444;
+    font-size: 24px;
+    transition: all .2s ease-in-out;
+}
+.link-social li:hover a {
+    color: #E65100;
+}
